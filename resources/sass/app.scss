@@ -1,0 +1,19 @@
+@import 'variables';
+@import '~bootstrap/scss/bootstrap';
+@import 'components/navbar';
+
+.active {
+    text-decoration: none;
+    color: green;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
